@@ -12,7 +12,7 @@ Optimizing a model according to MSE makes it chase outliers because squaring the
 #### Gradient Boosting Regression
 Gradient Boosting regression would be a similar case 
 to Gradient Boosting, however we now involve the learning rate.
-$$ F_m(X) = F_{m-1}(X) + ηΔ_m(X) $$
+$$F_m(X) = F_{m-1}(X) + ηΔ_m(X)$$
 therefore:
 $$F_1(X) = F_{0} + ηΔ_1(X),  F_2(X) = F_{1} + ηΔ_2(X),$$
 
