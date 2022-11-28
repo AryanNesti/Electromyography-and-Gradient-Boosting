@@ -1,4 +1,6 @@
 # Electromyography-and-Gradient-Boosting
+## For a tutorial
+https://medium.com/@aryannesti60/electromyography-and-gradient-boosting-60b12805a874 
 ## Background and Documentation
 ### Gradient Boosting
 #### History
