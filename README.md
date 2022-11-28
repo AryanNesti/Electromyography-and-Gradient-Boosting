@@ -17,7 +17,7 @@ therefore:
 $$F_1(X) = F_{0} + ηΔ_1(X),  F_2(X) = F_{1} + ηΔ_2(X),$$
 
 #### Modeling Performance
-To answer that, we need a loss or cost function, $L(y,\hat{y})$ or $L(y_i,\hat{y}_i_$, that computes the cost of predicting $\hat{y}$ instead of $y$. The loss across all $N$ observations is just the average (or the sum if you want since $N$ is a constant once we start training) of all the individual observation losses:
+To answer that, we need a loss or cost function, $L(y,\hat{y})$ or $L(y_i,\hat{y}$, that computes the cost of predicting $\hat{y}$ instead of $y$. The loss across all $N$ observations is just the average (or the sum if you want since $N$ is a constant once we start training) of all the individual observation losses:
 $$L(y, F_M(X)) = \frac{1}{N}Σ^{N}_{i = 1}L(y_i- F_M(x_i))$$
 The mean squared error (MSE) is the most common:
 $$L(y, F_M(X)) = \frac{1}{N}Σ^{N}_{i = 1}(y_i- F_M(x_i))^2$$
